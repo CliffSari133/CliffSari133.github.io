@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliffsari133 Spádómurinn: Ríktu yfir Dalam World 3D MMO án tafa á gamalli tölvu</title>
+    <meta name="description" content="Leyndarmál Cliffsari133 klettanna er afhjúpað! Gakktu í lið með sjálfstæða 3D MMO heiminum Dalam World. Ofurléttur netþjónn kóðaður í Assembly, keyrir á 1GB RAM.">
+    <meta name="keywords" content="cliffsari133, Dalam World íslenska, leikir fyrir lélegar tölvur, vinna sér inn pening í tölvuleikjum, hlaða niður Dalam World, mmo án tafa, bestu RPG leikir 2026, Assembly leikjaþjónn">
+    <style>
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #020617; color: #e2e8f0; margin: 0; padding: 0; line-height: 1.7; }
+        .hero { background: url('https://dalam.world/.dw/DalamWorld.back.jpeg') center/cover; padding: 130px 20px; text-align: center; position: relative; border-bottom: 4px solid #38bdf8; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(2, 6, 23, 0.9); }
+        .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+        .viking-badge { background: #0284c7; color: #fff; padding: 6px 18px; font-weight: bold; border-radius: 4px; font-size: 0.85em; text-transform: uppercase; display: inline-block; margin-bottom: 15px; letter-spacing: 2px; box-shadow: 0 0 15px rgba(2, 132, 199, 0.5); }
+        .container { max-width: 800px; margin: -40px auto 60px auto; padding: 45px; background: #0f172a; border-radius: 8px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.9); position: relative; z-index: 2; border: 1px solid #1e293b; }
+        h1 { font-size: 2.6em; color: #fff; font-weight: 900; line-height: 1.2; margin: 0; text-transform: uppercase; }
+        h1 span { color: #38bdf8; }
+        h2 { color: #38bdf8; font-size: 1.8em; margin-top: 40px; border-bottom: 2px solid #0284c7; padding-bottom: 10px; text-transform: uppercase; }
+        p { font-size: 1.15em; color: #94a3b8; text-align: justify; }
+        strong { color: #fff; }
+        .saga-box { background: rgba(56, 189, 248, 0.04); border-left: 5px solid #38bdf8; padding: 25px; margin: 30px 0; border-radius: 0 4px 4px 0; }
+        .btn { display: block; width: 85%; max-width: 420px; margin: 40px auto; padding: 22px; background: linear-gradient(135deg, #0284c7, #0369a1); color: #fff; text-align: center; text-decoration: none; border-radius: 4px; font-weight: 900; font-size: 1.4em; text-transform: uppercase; box-shadow: 0 8px 25px rgba(2,132,199,0.4); transition: all 0.3s ease; }
+        .btn:hover { transform: scale(1.02); box-shadow: 0 12px 30px rgba(2,132,199,0.6); background: linear-gradient(135deg, #38bdf8, #0284c7); }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 35px 0; }
+        .grid-item { background: #1e293b; padding: 20px; border-radius: 6px; border: 1px solid #334155; }
+        .grid-item h3 { margin: 0 0 10px 0; color: #38bdf8; font-size: 1.2em; text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin: 40px 0; background: #0f172a; border-radius: 4px; overflow: hidden; }
+        th, td { padding: 15px; border: 1px solid #334155; text-align: left; }
+        th { background-color: #1e293b; color: #38bdf8; text-transform: uppercase; }
+        tr:nth-child(even) { background-color: rgba(30, 41, 59, 0.4); }
+        .footer { text-align: center; font-size: 0.85em; color: #475569; margin-top: 60px; border-top: 1px solid #1e293b; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="hero-content">
+        <span class="viking-badge">Norðlægur Stafrænn Spádómur</span>
+        <h1>Kletturinn <span>Cliffsari133</span> Hefur Talað: Sannur Skerðingarlaus 3D Heimur</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="saga-box">
+        <p><strong>Heilir og sælir, stafrænir víkingar og frelsisleitendur!</strong></p>
+        <p>Frá hæstu klettum <strong>Cliffsari133</strong> kemur sannleikurinn sem stóru tæknifyrirtækin vildu fela. Nútíma tölvuleikir eru hannaðir af lötum fyrirtækjum; þeir krefjast dýrra skjákorta og eyðileggja afköst tölvunnar þinnar. En norðlæga andspyrnan hefur opnað hliðið að <strong>Dalam World</strong> — fullkomnum 3D MMO alheimi sem er hannaður frá grunni fyrir algjört frelsi og hámarksafköst.</p>
+    </div>
+
+    <p>Verum alveg heiðarleg: Hvað vill vaxandi stríðsmaður í stafrænum heimi? <strong>Stórkostlegt útlit, fallegar persónur og raunverulegan hagnað!</strong> Dalam World afhendir þetta fullkomlega. Persónuhönnun álfa (elf) í leiknum er í hæsta gæðaflokki með raunhæfri hreyfiefnisfræði sem lítur ótrúlega út á hvaða skjá sem er. En það sem meira er, innbyggða tilvísunarkerfið (referral system) gerir þér kleift að byggja upp eigin tekjustofn. Á meðan þú berst við hlið bræðra þinna og leggur undir þig lönd, þá mun þinn einstaki hlekkur dæla pasífum tekjum beint inn á þinn reikning.</p>
+
+    <a href="https://r.dalam.world/?ref=UserID35332293" class="btn" target="_blank">Virkja Hlekk Cliffsari</a>
+
+    <h2>Hrein Snilld: Netþjónn Kóðaður í Hreinu Assembly Máli</h2>
+    <p>Ástæðan fyrir því að þessi heimur laggar aldrei er sú að öll bakvinnslan og netkerfið er skrifað í lágstigs <strong>Assembly (FASM)</strong> máli. Þetta eyðir út öllum óþarfa hugbúnaðarþyngslum. Einn stór, óslitinn heimskort getur hýst yfir <strong>500.000 virka leikmenn á sama tíma</strong> án þess að rammahraði (FPS) falli eða tengingin rofni. Leikurinn keyrir fullkomlega á gamalli fartölvu, skrifstofutölvu eða á kerfum sem keyra á Linux og macOS!</p>
+
+    <h2>Helstu Kerfiseiningar og Leikreglur Dalam World:</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <h3>💰 Háar Greiðslur Úr Tilvísunarkerfi</h3>
+            <p>Innbyggða hagkerfið deilir hagnaði af öllum viðskiptum á netþjóninum. Bjóddu vinum þínum, byggðu þitt eigið gildi og horfðu á stafrænu eignirnar þínar vaxa.</p>
+        </div>
+        <div class="grid-item">
+            <h3>⚔️ Risastór Kastalarán (Castle Sieges)</h3>
+            <p>Taktu þátt í epískum bandalagsstríðum. Berðust gegn erlendum liðum, brjóttu niður varnarlínur óvinarins og reistu fána þinn á hæstu kastalaturnunum.</p>
+        </div>
+        <div class="grid-item">
+            <h3>🏰 Svæðisbundin Viðskiptaskattlagning</h3>
+            <p>Að sigra svæði þýðir að eiga hagkerfið. Þitt bandalag ákveður staðbundna markaðsskatta og hagnaðinum er deilt beint til stríðsmannanna á víglínunni.</p>
+        </div>
+        <div class="grid-item">
+            <h3>🏁 Veðmál á Skrímsla-Arenunni</h3>
+            <p>Þarftu hvíld frá stríði? Farðu á aðalleikvanginn, greindu lifandi skrímslakapphlaup, veðjaðu gullinu þínu og margfaldaðu auðæfi þín á augabragði.</p>
+        </div>
+        <div class="grid-item">
+            <h3>🎣 Úthafssiglingar & Handverk</h3>
+            <p>Smíðaðu þitt eigið herskip, kannaðu djúpsjávarveiðisvæði, safnaðu sjaldgæfum efnum og stjórnaðu alþjóðlegu viðskiptaleiðunum.</p>
+        </div>
+        <div class="grid-item">
+            <h3>🤖 Golem Smíði & Gæludýr</h3>
+            <p>Temdu grimma úlfa og risastóra dreka til að berjast við hlið þér, eða safnaðu vélrænum hlutum til að smíða skelfilega stríðsgólema.</p>
+        </div>
+    </div>
+
+    <h2>Ótrúlega Lágar Kerfiskröfur (System Requirements)</h2>
+    <p>Við sönnum að snjöll kóðun sigrar dýran vélbúnað í hvert einasta skipti. Fullkominn 3D stuðningur í Windows, Linux og macOS:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Vélbúnaður</th>
+                <th>Lágmarkskröfur</th>
+                <th>Ráðlagðar Kröfur</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Diskarými (Storage)</strong></td>
+                <td>8.1 Gb</td>
+                <td>12.2 Gb</td>
+            </tr>
+            <tr>
+                <td><strong>Örgjörvi (CPU)</strong></td>
+                <td>2.4 GHz Klukkuhraði</td>
+                <td>3.2 GHz eða hærra</td>
+            </tr>
+            <tr>
+                <td><strong>Vinnsluminni (RAM)</strong></td>
+                <td>1 Gb</td>
+                <td>4 Gb eða meira</td>
+            </tr>
+            <tr>
+                <td><strong>Skjákort (GPU)</strong></td>
+                <td>256 mb VRAM</td>
+                <td>4 Gb Sérstakt VRAM</td>
+            </tr>
+            <tr>
+                <td><strong>Nettenging</strong></td>
+                <td>52 Kbps (Ofurlág gagnanotkun)</td>
+                <td>1 Mbps</td>
+            </tr>
+            <tr>
+                <td><strong>Stýrikerfi (OS)</strong></td>
+                <td>Windows XP / Linux / macOS</td>
+                <td>Windows 10 / 11 / Linux / macOS</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="saga-box" style="border-color: #38bdf8; background: rgba(56, 189, 248, 0.01);">
+        <strong>MIKILVÆG TILKYNNING:</strong> Pláss fyrir Cliffsari133 bandalagið eru takmörkuð. Við leitum að mönnum sem eru tilbúnir að taka völdin, njóta dásamlegrar persónuhönnunar og búa til raunverulegar tekjur. Smelltu hér að neðan, tryggðu þér skráningu, náðu í létta biðlarann (client) og mættu á Discord!
+    </div>
+
+    <a href="https://r.dalam.world/?ref=UserID35332293" class="btn" target="_blank">Sækja Létta Biðlarann</a>
+
+    <div class="footer">
+        © 2026 Cliffsari133 Alliance Node. Sjálfstætt Leikjanet & Dreifðir Hnútar. Lágstigs Assembly x86_64 FASM Hagræðing.
+    </div>
+</div>
+
+<script src="https://dalam.world/.dw/lnd.cfg.js" defer></script>
+</body>
+</html>
